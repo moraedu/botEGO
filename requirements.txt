@@ -1,0 +1,6 @@
+py-cord
+requests
+asyncio
+typing
+datetime
+dotenv
