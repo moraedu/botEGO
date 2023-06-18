@@ -3,4 +3,3 @@ requests
 asyncio
 typing
 datetime
-dotenv
