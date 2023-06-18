@@ -1,13 +1,10 @@
 import discord
 import os
 from discord.ext import commands
-import dotenv
 
 from comandos.guia import GuiaView
 
-# Obtener la ruta actual del proyecto
-dotenv.load_dotenv()
-TOKEN = os.getenv(TOKEN)
+TOKEN = os.getenv("TOKEN")
 
 intents: discord.Intents = discord.Intents.all()
 def get_prefix(bot: commands.Bot | discord.AutoShardedBot, msg: discord.Message):
